@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Word temp/lock files
+~$*.docx
+
+# Wireshark captures (can be large; add specific ones on purpose if wanted)
+*.pcap
+*.pcapng

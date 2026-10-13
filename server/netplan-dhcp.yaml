@@ -1,0 +1,9 @@
+# group22-02 (Ubuntu Server): DHCP address + Google DNS
+# Used by server/setup.sh -> /etc/netplan/50-cloud-init.yaml
+network:
+  version: 2
+  ethernets:
+    enp0s3:
+      dhcp4: true
+      nameservers:
+        addresses: [8.8.8.8, 8.8.4.4]
